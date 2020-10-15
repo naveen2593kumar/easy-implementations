@@ -1,0 +1,21 @@
+body {
+  padding: 0;
+}
+
+.area-display {
+  text-align: center;
+  padding: 32px;
+  background-color: lavender;
+}
+
+.area-plus {
+  text-align: center;
+  padding: 32px;
+  background-color: cornflowerblue;
+}
+
+.area-minus {
+  text-align: center;
+  padding: 32px;
+  background-color: cadetblue;
+}
