@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Me</title>
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      flex-direction: column;
+      font-family: "Lucida Console", Monaco, monospace;
+      text-shadow: 2px 2px #000000;
+    }
+  </style>
+</head>
+
+<body>
+  <div style="padding: 16px;font-size: 2rem;">#<span contenteditable id="hexCodeInput">ff0000</span></div>
+  <div style="padding: 16px;font-size: 2rem;margin-bottom: 16px;">rgb(<span contenteditable
+      id="rCodeInput">255</span>,<span contenteditable id="gCodeInput">0</span>,<span contenteditable
+      id="bCodeInput">0</span>)</div>
+  <button id="randomColorButton">Random</button>
+
+  <script type="module" src="./index.js"></script>
+</body>
+
+</html>
